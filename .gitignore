@@ -1,0 +1,19 @@
+# Data: never commit raw or processed files
+data/
+*.zip
+*.csv
+*.parquet
+
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Editor and OS
+.vscode/
+Thumbs.db
+.DS_Store
